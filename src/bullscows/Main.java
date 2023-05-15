@@ -1,3 +1,5 @@
+package bullscows;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package bullscows;
+
 import java.util.HashSet;
 import java.util.Random;
 
@@ -27,10 +29,6 @@ public class BullsAndCowsGame {
         }
 
         this.secretCode = generateSecretCode(codeLength, possibleAmountOfChars);
-//
-        System.out.println(this.secretCode);
-        System.out.println(this.secretCode.length());
-
         this.isGuessed = false;
         this.cows = 0;
         this.bulls = 0;
